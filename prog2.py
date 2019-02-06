@@ -60,9 +60,7 @@ def main():
                     
         #need dealer to player compare now if stay and dealer hit routine
         
-        
-        
-        
+             
         print("Enter '1' to quit OR any other number to continue")
         q = int(input())
 

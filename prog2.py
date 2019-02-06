@@ -1,7 +1,7 @@
+#add flag for blackjack
 import random
 
 def main():    
-
     q = 0 #quit variable, 0 will continue, will quit when pulled high
     chips = 100 #chip count (begin with 100)
     bet = 0 #bet amount

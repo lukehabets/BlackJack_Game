@@ -58,7 +58,7 @@ def main():
                     print("Enter '1' to hit again, or '2' to stay")
                     hitStay = int(input())
                     
-        #need delaer to player compare now if stay and deaker hit routine
+        #need dealer to player compare now if stay and dealer hit routine
         
         
         

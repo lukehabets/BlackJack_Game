@@ -64,9 +64,7 @@ def main():
                 else:
                     print("Enter '1' to hit again, or '2' to stay")
                     hitStay = int(input())
-
-            #hitStay = 0 #resetting hit/stay variable
-            
+                    
             if(handTotal < 22): #if didn't bust
                 while(dealerCard < 17): #dealer hitting until at least 17
                     dealerCard = dealerCard + random.randint(1,10)

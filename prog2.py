@@ -34,7 +34,7 @@ def main():
         print("Card 1: ",card1)     #printing initial 2 cards
         print("Card 2: ",card2,"\n")
 
-        if(card1 == 1 and card2 == 10) or (card1 == 10 and card2 == 10): #checking for blackjack
+        if(card1 == 1 and card2 == 10) or (card1 == 10 and card2 == 1): #checking for blackjack
             print("BLACKJACK, YOU WIN")
             chips = chips + bet
             blackJackWin = 1 #setting blackJack flag high to signal blackjack
